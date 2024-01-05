@@ -22,7 +22,7 @@ public class Empregado {
     
     public void SalarioAnualComAumento(){
        this.SalarioAnual = this.SalarioAnual + (this.SalarioAnual*10)/100;
-        System.out.println("O salario anual com aumento e igual a " + this.SalarioAnual);
+        System.out.println("O salario anual com aumento de 10% e igual a " + this.SalarioAnual);
        
            
        
